@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-c4d-lighting"
+description = "Extract HDRI + individual studio lights from any image (via DiffusionLight) and rebuild them live as a Redshift lighting setup in Cinema 4D."
+version = "1.0.0"
+license = { text = "MIT" }
+dependencies = ["numpy", "opencv-python", "imageio"]
+
+[project.urls]
+Repository = "https://github.com/othlab/comfyui-c4d-lighting"
+
+[tool.comfy]
+PublisherId = "YOUR_PUBLISHER_ID"
+DisplayName = "C4D Lighting Bridge"
+Icon = ""
